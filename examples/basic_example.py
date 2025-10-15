@@ -43,7 +43,7 @@ async def main():
         # Get market data
         print("\n📈 Fetching market data...")
 
-        symbols = ["BTC_USDT", "CAKE_USDT"]
+        symbols = ["BTC_USDT", "CAKE_USDT", "ETH_USDT", "SOL_USDT", "ASTER_USDT", "COAI_USDT"]
         for symbol in symbols:
             try:
                 print(f"\n🔍 {symbol}:")

@@ -11,10 +11,10 @@ class RiseFallRates(BaseModel):
     r: float  # current rate
     v: float  # current value
     r7: float  # 7 days rate
-    r30: float  # 30 days rate
-    r90: float  # 90 days rate
-    r180: float  # 180 days rate
-    r365: float  # 365 days rate
+    r30: Optional[float] = None  # 30 days rate
+    r90: Optional[float] = None  # 90 days rate
+    r180: Optional[float] = None  # 180 days rate
+    r365: Optional[float] = None  # 365 days rate
 
 
 class TickerData(BaseModel):
