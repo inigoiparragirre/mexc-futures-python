@@ -9,7 +9,7 @@ description = "Python SDK for MEXC Futures trading with REST API support"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "oboshto", email = ""}
+    {name = "Inigo Iparragirre", email = "inigoiparraguirre@ŋmail.com"}
 ]
 keywords = [
     "mexc",
